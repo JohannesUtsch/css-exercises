@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+}
+
+.odd {
+    /* a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback */
+
+    background-color: rgba(255, 102, 102, 0.5);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.cooler_class {
+    /* in addition to the styles for all odd numbered elements, add a font size of 24px */
+
+    font-size: 24px;
+}
+
+#second {
+    /* blue text and a font size of 36px */
+    color: rgba(0, 0, 255, 1);
+    font-size: 36px;
+}
+
+#fourth {
+    /* a light green background, a font size of 24px, and bold */
+
+    background-color: rgba(144, 238, 144, 0.5);
+    font-size: 24px;
+    font-weight: bold;
+}
